@@ -138,11 +138,11 @@ def main():
     start_time = time.time()
     index = 0
     #TODO not in spanish
-    for game in myGameCol.find({'languages':{'$regex': 'Spanish'}}):
+    for game in myGameCol.find({'languages':{'$regex': 'English'}}):
         index+=1
         print('Game Nº ' + str(index))
-        if index > 14:
-            downloadGameReviews(game,'spanish')
+        
+        downloadGameReviews(game,'english')
 
     '''    
     empty = {}
