@@ -31,6 +31,7 @@ Gonna take a while for it to finish.
 
 ### Data evaluation. ###
 
+Choose:
 - [ ] SVM binary labeled learning
 - [ ] Summarizing
 - [ ] Review ranking by review and user attributes
@@ -39,26 +40,26 @@ Gonna take a while for it to finish.
 
 ```javascript
 {
-    'recommendationid': '49207914',
+    'recommendationid': 'numString',
     'author': {
-        'steamid': '76561198077842371',
-        'num_games_owned': 21,
-        'num_reviews': 4,
-        'playtime_forever': 881,
-        'playtime_last_two_weeks': 0,
-        'last_played': 1545929761
+        'steamid': 'numString',
+        'num_games_owned': number,
+        'num_reviews': number,
+        'playtime_forever': number,
+        'playtime_last_two_weeks': number,
+        'last_played': number
     },
-    'language': 'english',
-    'review': 'Quite frankly, dont buy this.  Worst game out there currently, seriously.  The positive reviews is definetly staff or friends of staff working at the company.  This is a disaster!!!!  Everyone I knew quit, and no one is online anymore.  At least Ark has a community',
-    'timestamp_created': 1551005549,
-    'timestamp_updated': 1551005549,
-    'voted_up': False,
-    'votes_up': 0,
-    'votes_funny': 0,
-    'weighted_vote_score': 0,
-    'comment_count': 0,
-    'steam_purchase': True,
-    'received_for_free': False,
-    'written_during_early_access': True
+    'language': 'String',
+    'review': 'LongString',
+    'timestamp_created': number,
+    'timestamp_updated': number,
+    'voted_up': Boolean,
+    'votes_up': number,
+    'votes_funny': number,
+    'weighted_vote_score': number,
+    'comment_count': number,
+    'steam_purchase': Boolean,
+    'received_for_free': Boolean,
+    'written_during_early_access': Boolean
 }
 ```
