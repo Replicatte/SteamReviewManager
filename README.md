@@ -5,9 +5,9 @@ W I P
 - - -
 
 - Can download reviews of games and classify them (by genres?)
-  - [x] Crawls different applications of Steam 
-  - [x] Gets the summary of the review values maybe with multiple languages (if the game is also in spanish also get spanish reviews)
-  - [x] Starts downloading reviews (most popular games first?)
+  - [x] Downloads Gameinfo.
+  - [x] Donwloads Reviews of the specified games in a specific language.
+  - [x] Tracks the downloads in a Summary of the game reviews
   - [x] Saves the application reviews of the same kind in the same file (by genres?/language)
   
 - Can load the reviews of determined file for making an simple analysis
@@ -31,12 +31,7 @@ Gonna take a while for it to finish.
 
 ### Data evaluation. ###
 
-Choose:
-- [ ] SVM binary labeled learning
-- [ ] Summarizing
-- [ ] Review ranking by review and user attributes
-
-> playedTime + reviewLikes + userScore + oldnessOfReview + reviewFunnyLikesRatio
+Data Sample:
 
 ```javascript
 {
@@ -63,3 +58,15 @@ Choose:
     'written_during_early_access': Boolean
 }
 ```
+
+Choose:
+
+- [ ] SVM binary labeled learning
+- [ ] Summarizing
+- [ ] Review ranking by review and user attributes
+> playedTime + reviewLikes + userScore + oldnessOfReview + reviewFunnyLikesRatio
+- [ ] Extract the justification on why the users thing something is good or bad 
+> Graphics, Gameplay, Controls, BusinessModel ...
+
+
+
