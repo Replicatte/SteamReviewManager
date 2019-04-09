@@ -37,7 +37,7 @@ Gonna take a while for it to finish.
 
 > playedTime + reviewLikes + userScore + oldnessOfReview + reviewFunnyLikesRatio
 
-```json
+```javascript
 {
     'recommendationid': '49207914',
     'author': {
