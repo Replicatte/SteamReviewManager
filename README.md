@@ -38,24 +38,27 @@ Gonna take a while for it to finish.
 > playedTime + reviewLikes + userScore + oldnessOfReview + reviewFunnyLikesRatio
 
 ```json
-{'recommendationid': '49207914',
-        'author': { 'steamid': '76561198077842371',
-                    'num_games_owned': 21,
-                    'num_reviews': 4,
-                    'playtime_forever': 881,
-                    'playtime_last_two_weeks': 0,
-                    'last_played': 1545929761},
-        'language': 'english',
-        'review':
-'Quite frankly, dont buy this.  Worst game out there currently, seriously.  The positive reviews is definetly staff or friends of staff working at the company.  This is a disaster!!!!  Everyone I knew quit, and no one is online anymore.  At least Ark has a community',
-        'timestamp_created': 1551005549,
-        'timestamp_updated': 1551005549,
-        'voted_up': False,
-        'votes_up': 0,
-        'votes_funny': 0,
-        'weighted_vote_score': 0,
-        'comment_count': 0,
-        'steam_purchase': True,
-        'received_for_free': False,
-        'written_during_early_access': True}
-  ```
+{
+    'recommendationid': '49207914',
+    'author': {
+        'steamid': '76561198077842371',
+        'num_games_owned': 21,
+        'num_reviews': 4,
+        'playtime_forever': 881,
+        'playtime_last_two_weeks': 0,
+        'last_played': 1545929761
+    },
+    'language': 'english',
+    'review': 'Quite frankly, dont buy this.  Worst game out there currently, seriously.  The positive reviews is definetly staff or friends of staff working at the company.  This is a disaster!!!!  Everyone I knew quit, and no one is online anymore.  At least Ark has a community',
+    'timestamp_created': 1551005549,
+    'timestamp_updated': 1551005549,
+    'voted_up': False,
+    'votes_up': 0,
+    'votes_funny': 0,
+    'weighted_vote_score': 0,
+    'comment_count': 0,
+    'steam_purchase': True,
+    'received_for_free': False,
+    'written_during_early_access': True
+}
+```
